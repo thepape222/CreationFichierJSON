@@ -43,7 +43,7 @@ public class Jsonfichier {
     }
 
     private static void saveAsIndentedJsonFile(JSONObject outputList) throws IOException {
-        FileWriter pretty = new FileWriter("json/output-pretty.json");
+        FileWriter pretty = new FileWriter("test1.json");
         pretty.write(outputList.toString(2));
         pretty.close();
     }
