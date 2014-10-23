@@ -21,6 +21,8 @@ public class Main {
         list.add(act5);
         try {
             Jsonfichier fichier = new Jsonfichier("A0001", "2012-2014", 7, list);
+            Jsonfichier fichier1 = new Jsonfichier("A0001", "2012-2014", list);
+            Jsonfichier fichier2 = new Jsonfichier("A0001", "2012-2014", list, 5);
         } catch (IOException ex) {
             System.out.println("erreur dans le fichier");
         }
